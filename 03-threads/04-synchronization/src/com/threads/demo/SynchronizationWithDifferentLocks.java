@@ -43,6 +43,8 @@ class BankAccount1 implements Runnable{
         }
     }
 
+    jhahahaha
+
     private void makeDeposit(int amount){
         synchronized ("s"){
             balance += amount;
