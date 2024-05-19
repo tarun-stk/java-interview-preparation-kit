@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70d07bde-82c6-403f-a41f-9e36bce40bd4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/concurrency/src/com/threads/cooperation/WaitNotifyIndexer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/com/threads/interruption/WaitNotifyWithIncompleteInterruption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/com/threads/volatilevariables/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-comparator-and-comparable/comparator-and-comparable-demo/src/com/java/interview/prep/comparable/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01-comparator-and-comparable/comparator-and-comparable-demo/src/com/java/interview/prep/comparable/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-comparator-and-comparable/comparator-and-comparable-demo/src/com/java/interview/prep/comparator/IdNameSalaryComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../01-comparator-and-comparable/comparator-and-comparable-demo/src/com/java/interview/prep/comparator/IdNameSalaryComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-ways-of-creating-thread/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-ways-of-creating-thread/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-ways-of-creating-thread/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-ways-of-creating-thread/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-ways-of-creating-thread/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-ways-of-creating-thread/Threads Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/Threads Demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-ways-of-creating-thread/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-ways-of-creating-thread/src/com/threads/demo/MyFirstThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/com/threads/basics/MyFirstThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-setting-name, priority-and-join/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-setting-name, priority-and-join/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-setting-name, priority-and-join/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-setting-name, priority-and-join/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-setting-name, priority-and-join/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-setting-name, priority-and-join/Threads Demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-setting-name, priority-and-join/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-setting-name, priority-and-join/src/com/threads/demo/MyFirstThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-setting-name, priority-and-join/src/com/threads/demo/ThreadPriorityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/com/threads/basics/ThreadPriorityDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-race-conditions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-race-conditions/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-race-conditions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-race-conditions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-race-conditions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-race-conditions/Threads Demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-race-conditions/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-race-conditions/src/com/threads/demo/RaceConditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/com/threads/rececondition/RaceConditionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-synchronization/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-synchronization/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-synchronization/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-synchronization/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-synchronization/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-synchronization/Threads Demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-synchronization/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-synchronization/src/com/threads/demo/RaceConditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/com/threads/synchronization/RaceConditionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-synchronization/src/com/threads/demo/SynchronizationWithDifferentLocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/com/threads/synchronization/SynchronizationWithDifferentLocks.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gbV36KJ3OxJYJrLNVtpnmhhtS7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Enfec Solutions/Documents/java-interview-preparation-kit/03-threads&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Enfec Solutions/Documents/java-interview-preparation-kit/03-threads/_06-atomic-variables/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Enfec Solutions\Documents\java-interview-preparation-kit\03-threads" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Enfec Solutions\Documents\java-interview-preparation-kit\03-threads\concurrency\src\com\threads\basics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NaiveIndexer">
+    <configuration name="MeetUpEventSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.threads.atomicvariables.MeetUpEventSimulator" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.threads.atomicvariables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NaiveIndexer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.threads.cooperation.NaiveIndexer" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.threads.cooperation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.threads.volatilevariables.VolatileDemo" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.threads.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="03-concurrency" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="03-concurrency" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NaiveIndexer" />
+        <item itemvalue="Application.MeetUpEventSimulator" />
+        <item itemvalue="Application.VolatileDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70d07bde-82c6-403f-a41f-9e36bce40bd4" name="Changes" comment="" />
+      <created>1715966061283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715966061283</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/_06-atomic-variables/src/main/java/org/example/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

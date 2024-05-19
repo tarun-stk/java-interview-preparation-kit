@@ -10,25 +10,24 @@ public class IdNameSalaryComparator implements Comparator<Employee> {
 
     @Override
     public int compare(Employee e1, Employee e2) {
-        if(e1.getId() > e2.getId())
+        if (e1.getId() > e2.getId())
             return 1; // If you want to sort in descending then return -1;
-        else if(e1.getId() < e2.getId())
+        else if (e1.getId() < e2.getId())
             return -1; // If you want to sort in descending then return 1;
-        else{
+        else {
 //            if id's are same then we enter this else condition
 //            calculating which is greater for names
 //            if diff is not 0 then names are different we can directly return diff
 //            if diff is 0, then we should sort based on salaries.
             int diff = e1.getName().compareTo(e2.getName());
-            if(diff == 0){
+            if (diff == 0) {
 //                sorting based on salaries.
-                if(e1.getSalary() > e2.getSalary())
+                if (e1.getSalary() > e2.getSalary())
                     return 1;
-                else if(e1.getSalary() < e2.getSalary())
-                    return 1;
+                else if (e1.getSalary() < e2.getSalary())
+                    return -1;
                 return 0;
-            }
-            else
+            } else
                 return diff;
         }
     }

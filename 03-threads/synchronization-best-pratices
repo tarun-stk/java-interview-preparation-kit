@@ -1,0 +1,66 @@
+Synchronization best practices:
+	1. synchronize everywhere variable is accessed
+
+		private synchronized void makeDeposit(int amount){
+            balance += amount;
+    	}
+
+    	private synchronized void makeWithDrawal(int amount) {
+	        if(amount <= balance){
+	            System.out.println(Thread.currentThread().getName() + " is about to withdraw");
+	            balance -= amount;
+	            System.out.println(Thread.currentThread().getName() + " completed withdrawal");
+	        }
+	        else{
+	            System.out.println("Sorry, Not enough balance to withdraw for " + Thread.currentThread().getName());
+	        }
+	    }
+
+	2. guard same shared mutable variable with same lock
+
+		***below is wrong, as different locks obtained, thread communication cannot happend, and racecondition is still possible
+
+		private synchronized void makeWithDrawal(int amount) {
+	        if(amount <= balance){
+	            System.out.println(Thread.currentThread().getName() + " is about to withdraw");
+	            balance -= amount;
+	            System.out.println(Thread.currentThread().getName() + " completed withdrawal");
+	        }
+	        else{
+	            System.out.println("Sorry, Not enough balance to withdraw for " + Thread.currentThread().getName());
+	        }
+	    }
+
+	    private void makeDeposit(int amount){
+	        synchronized ("s"){
+	            balance += amount;
+	        }
+	    }
+
+	    ***below is good
+
+	    private synchronized void makeDeposit(int amount){
+            balance += amount;
+    	}
+
+    	private synchronized void makeWithDrawal(int amount) {
+	        if(amount <= balance){
+	            System.out.println(Thread.currentThread().getName() + " is about to withdraw");
+	            balance -= amount;
+	            System.out.println(Thread.currentThread().getName() + " completed withdrawal");
+	        }
+	        else{
+	            System.out.println("Sorry, Not enough balance to withdraw for " + Thread.currentThread().getName());
+	        }
+	    }
+
+	3. synchronize static fields
+
+	4. Sync what is needed
+		keep sync blocks small
+		it is time consuimg, as it will keep other threads in blocked state.
+
+	5. Avoid excessive sync
+
+	6. If not sure whether to sync or not, don't do it & document it as not synchrnoized
+		StringBuffer syncd, so time consuming, as its repalcemnt came stringbuilder which is faster and not syncd

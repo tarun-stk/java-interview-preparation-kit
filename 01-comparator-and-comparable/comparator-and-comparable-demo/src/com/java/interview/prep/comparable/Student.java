@@ -2,6 +2,7 @@ package com.java.interview.prep.comparable;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -69,6 +70,9 @@ public class Student implements Comparable<Student>{
         System.out.println("Before sorting by id's: ");
         System.out.println(students);
         Collections.sort(students);
+//        List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 23423, 32,423));
+//        Collections.sort(list, Collections.reverseOrder());
+//        System.out.println(list);
         System.out.println("After sorting by id's: ");
         System.out.println(students);
 
