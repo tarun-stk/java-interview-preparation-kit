@@ -1,0 +1,58 @@
+Executor Framework:
+		
+	Drawbacks of trditional thread per task
+	- suitable for small scale apps
+	- thread creation and teardown costs
+	- resource consumption(unpredictable)
+	- instability ~ boundless thread creation
+
+	Execotr:
+		flexible and powerful task execution framework, uses work queu and thread pool
+
+	How it fixed above drawbacks:
+		- it will have ready to use threads
+		- fixed size thread pool
+
+	Executor interface:
+		public interface Executor{
+			void execute(Runnable command);
+		}
+
+		class ThreadPerTaskExecutor implements Executor{
+			public void execute(Runnable r){
+				new Thread(r).start();
+			}
+		}
+
+	SingleThreadExecutor:
+		class SingleThreadExecutor implements Executor{
+			public void execute(Runnable r){
+				new Thread(r).start();
+			}
+		}
+
+	some of the methods in executors:
+		newFixedThreadPool   -> ExecutorService
+		newCachedThreadPool  -> ExecutorService
+		newSingleThreadExecutor  -> ExecutorService
+		newScheduledThreadPool  -> ScheduledExecutorService
+
+			Inheritance hierarchy
+			ThreadPoolExecutor  -> AbstractExecutorService -> ExecutorService -> Executor
+
+		newFixedThreadPool(int nThreads):
+			- fixed thread pool size = nthreads
+			- creates upto n threads as tasks are submitted
+			- pool size reached reuse idle thread, or task is queued
+			- new thread added to pool, if any thread dies due to  exception
+			- good for heavily loaded prod servers
+			- ((ThreadPoolExecutor)fixedPool).setMaximumPoolSize(10)
+
+		newCachedThreadPool:
+			- tasks are not queued unlike thread per task
+			- new task -> reuse idle thread or create new thread
+			- max idle time for a thread ~ 60 secs
+			- good for lightly loaded servers
+
+		newScheduledThreadPool:
+			- fixed size pool for delayed & periodic task execution

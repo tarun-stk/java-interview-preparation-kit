@@ -4,60 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70d07bde-82c6-403f-a41f-9e36bce40bd4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/concurrency/src/com/threads/concurrencyUtils/executors/NaiveExecutorIndexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="70d07bde-82c6-403f-a41f-9e36bce40bd4" name="Changes" comment="Update.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/com/threads/basics/MyFirstThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/com/threads/basics/MyFirstThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/com/threads/cooperation/WaitNotifyIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/com/threads/cooperation/WaitNotifyIndexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency/src/com/threads/interruption/WaitNotifyWithIncompleteInterruption.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/com/threads/interruption/WaitNotifyWithIncompleteInterruption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/01-ways-of-creating-thread/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/01-ways-of-creating-thread/com/threads/demo/MyFirstThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/01-ways-of-creating-thread/com/threads/demo/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-setting-name, priority-and-join/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-setting-name, priority-and-join/com/threads/demo/DataAggregator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-setting-name, priority-and-join/com/threads/demo/EmailCampaign.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-setting-name, priority-and-join/com/threads/demo/MyFirstThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-setting-name, priority-and-join/com/threads/demo/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-setting-name, priority-and-join/com/threads/demo/ThreadPriorityDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/03-race-conditions/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/03-race-conditions/com/threads/demo/BankAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/03-race-conditions/com/threads/demo/RaceConditionDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/04-synchronization/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/04-synchronization/com/threads/demo/BankAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/04-synchronization/com/threads/demo/BankAccount1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/04-synchronization/com/threads/demo/RaceConditionDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/04-synchronization/com/threads/demo/SynchronizationWithDifferentLocks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/05-volatile-keyword/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/05-volatile-keyword/com/threads/demo/VolatileDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/05-volatile-keyword/com/threads/demo/VolatileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrency/com/threads/cooperation/NaiveIndexer$Downloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrency/com/threads/cooperation/NaiveIndexer$Downloader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrency/com/threads/cooperation/NaiveIndexer$Indexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrency/com/threads/cooperation/NaiveIndexer$Indexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrency/com/threads/cooperation/NaiveIndexer$Weblink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrency/com/threads/cooperation/NaiveIndexer$Weblink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrency/com/threads/cooperation/NaiveIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrency/com/threads/cooperation/NaiveIndexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-multiple-inheritance/multiple-inheritance/src/com/multiple/inheritance/demo/BackWheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-multiple-inheritance/multiple-inheritance/src/com/multiple/inheritance/BackWheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-multiple-inheritance/multiple-inheritance/src/com/multiple/inheritance/demo/FrontWheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-multiple-inheritance/multiple-inheritance/src/com/multiple/inheritance/FrontWheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-multiple-inheritance/multiple-inheritance/src/com/multiple/inheritance/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-multiple-inheritance/multiple-inheritance/src/com/multiple/inheritance/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-multiple-inheritance/multiple-inheritance/src/com/multiple/inheritance/demo/TwoWheeler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-multiple-inheritance/multiple-inheritance/src/com/multiple/inheritance/TwoWheeler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01-comparator-and-comparable/com/java/interview/prep/comparable/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01-comparator-and-comparable/com/java/interview/prep/comparator/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01-comparator-and-comparable/com/java/interview/prep/comparator/IdComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01-comparator-and-comparable/com/java/interview/prep/comparator/IdNameSalaryComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01-comparator-and-comparable/com/java/interview/prep/comparator/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01-comparator-and-comparable/com/java/interview/prep/comparator/NameComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01-comparator-and-comparable/com/java/interview/prep/comparator/SalaryComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01-ways-of-creating-thread/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01-ways-of-creating-thread/com/threads/demo/MyFirstThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01-ways-of-creating-thread/com/threads/demo/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/02-setting-name, priority-and-join/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/02-setting-name, priority-and-join/com/threads/demo/DataAggregator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/02-setting-name, priority-and-join/com/threads/demo/EmailCampaign.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/02-setting-name, priority-and-join/com/threads/demo/MyFirstThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/02-setting-name, priority-and-join/com/threads/demo/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/02-setting-name, priority-and-join/com/threads/demo/ThreadPriorityDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/03-race-conditions/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/03-race-conditions/com/threads/demo/BankAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/03-race-conditions/com/threads/demo/RaceConditionDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,13 +54,13 @@
       <recent name="C:\Users\Enfec Solutions\Documents\java-interview-preparation-kit\03-threads\concurrency\src\com\threads\basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintOddEvenUsingTwoThreads">
-    <configuration name="ObjectLevelLockingWithTwoDifferentLocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.threads.objectlevel.locking.with.two.locks.ObjectLevelLockingWithTwoDifferentLocks" />
+  <component name="RunManager" selected="Application.UsingSingleThreadPool">
+    <configuration name="FourthTechnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.threads.techniques.FourthTechnique" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.threads.objectlevel.locking.with.two.locks.*" />
+          <option name="PATTERN" value="com.threads.techniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectLevelNoLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.threads.objectlevel.locking.withnolock.ObjectLevelNoLock" />
+    <configuration name="ThirdTechnique (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.threads.techniques.ThirdTechnique" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.threads.objectlevel.locking.withnolock.*" />
+          <option name="PATTERN" value="com.threads.techniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintOddEvenUsingTwoThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.threads.exercises.PrintOddEvenUsingTwoThreads" />
+    <configuration name="ThirdTechnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.threads.techniques.ThirdTechnique" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.threads.exercises.*" />
+          <option name="PATTERN" value="com.threads.techniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.threads.reentrant.lock.with.lock.ReentrantLockDemo" />
+    <configuration name="UsingCachedThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.threads.techniques.executors.UsingCachedThreadPool" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.threads.reentrant.lock.with.lock.*" />
+          <option name="PATTERN" value="com.threads.techniques.executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.threads.volatilevariables.VolatileDemo" />
+    <configuration name="UsingFixedThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.threads.techniques.executors.UsingFixedThreadPool" />
       <module name="concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.threads.volatilevariables.*" />
+          <option name="PATTERN" value="com.threads.techniques.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsingSingleThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.threads.techniques.executors.UsingSingleThreadPool" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.threads.techniques.executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrintOddEvenUsingTwoThreads" />
-        <item itemvalue="Application.VolatileDemo" />
-        <item itemvalue="Application.ReentrantLockDemo" />
-        <item itemvalue="Application.ObjectLevelNoLock" />
-        <item itemvalue="Application.ObjectLevelLockingWithTwoDifferentLocks" />
+        <item itemvalue="Application.UsingSingleThreadPool" />
+        <item itemvalue="Application.UsingCachedThreadPool" />
+        <item itemvalue="Application.UsingFixedThreadPool" />
+        <item itemvalue="Application.FourthTechnique" />
+        <item itemvalue="Application.ThirdTechnique" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +152,20 @@
       <option name="presentableId" value="Default" />
       <updated>1715966061283</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update.">
+      <option name="closed" value="true" />
+      <created>1721842099654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721842099654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
