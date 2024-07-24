@@ -83,46 +83,40 @@ public class WaitNotifyWithIncompleteInterruption {
         }
 
         public void run() {
-            try {
-                synchronized (weblink) {
+            synchronized (weblink) {
 //                    InputStream in = HttpConnect.getInputStream(weblink.getUrl());
-                    InputStream in;
-                    // Background thread for stopping download process
-                    Thread bgThread = new Thread(new Runnable() {
-                        @Override
-                        public void run() {
-                            try {
-                                while (!weblink.isStop()) {
-                                    TimeUnit.SECONDS.sleep(1);
-                                }
-                                System.out.println("Time out. Closing stream for " + weblink.getId());
-                                in.close();
-                            } catch (InterruptedException e) {
-                                System.out.println("bgThread interrupted -- " + weblink.getId());
-                            } catch (IOException e) {
-                                e.printStackTrace();
+                InputStream in = null;
+                // Background thread for stopping download process
+                Thread bgThread = new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            while (!weblink.isStop()) {
+                                TimeUnit.SECONDS.sleep(1);
                             }
+                            System.out.println("Time out. Closing stream for " + weblink.getId());
+                            in.close();
+                        } catch (InterruptedException e) {
+                            System.out.println("bgThread interrupted -- " + weblink.getId());
+                        } catch (IOException e) {
+                            e.printStackTrace();
                         }
-                    });
-                    bgThread.start();
+                    }
+                });
+                bgThread.start();
 
-                    String htmlPage;
-                    //  htmlPage = HttpConnect.download(in);
-                    htmlPage = "";
-                    System.out.println(weblink.getId() + " download complete ...");
-                    weblink.setHtmlPage(htmlPage);
+                String htmlPage;
+                //  htmlPage = HttpConnect.download(in);
+                htmlPage = "";
+                System.out.println(weblink.getId() + " download complete ...");
+                weblink.setHtmlPage(htmlPage);
 
-                    bgThread.interrupt();
+                bgThread.interrupt();
 
-                    weblink.notifyAll();
-                }
-                // lock is released
-
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (URISyntaxException e) {
-                e.printStackTrace();
+                weblink.notifyAll();
             }
+            // lock is released
+
         }
     }
 

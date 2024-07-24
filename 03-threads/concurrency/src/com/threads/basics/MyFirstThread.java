@@ -7,9 +7,9 @@ package com.threads.basics;
 //Multi threading allows to perform many things at once
 //eg: Thread is a worker
 //and work is a task(Runnable)
-//Even if you don't create anby threads in your app, by default there will be always one thread called Main thread
-//JVM runs untill all the threads complete their execution
-//Whenver you run your app, main thread will start running
+//Even if you don't create any threads in your app, by default there will be always one thread called Main thread
+//JVM runs until all the threads complete their execution
+//Whenever you run your app, main thread will start running
 //And order of execution of threads is decided by Thread Scheduler, and no one can predict the order, there's no guarantee which thread will start
 //Thread states
 //1. New, 2. Runnable, 3. Running, 4. Waiting/Blocked, 5.Terminated

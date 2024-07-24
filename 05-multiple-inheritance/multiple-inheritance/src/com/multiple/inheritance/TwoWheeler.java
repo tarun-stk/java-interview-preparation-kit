@@ -1,4 +1,4 @@
-package com.multiple.inheritance.demo;
+package com.multiple.inheritance;
 
 public class TwoWheeler implements BackWheel, FrontWheel{
     @Override
