@@ -22,6 +22,7 @@ public class RaceConditionDemo {
         BankAccount bankAccount = new BankAccount();
         bankAccount.setBalance(100);
 
+        /*Two threads workign on same task*/
         Thread john = new Thread(bankAccount);
         Thread anita = new Thread(bankAccount);
 

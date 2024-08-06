@@ -6,12 +6,14 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 
-/*Notes on thread cooperation
+/**
+ * Notes on thread cooperation
  * There might be scenario when two threads workign t1, t2
  * and t2 aqurires lock first, but inorder to complete its job it t1 to first complete its job
  * In this scenario we need thread cooperation, some mechanism where t1 will tell t2 ro compelte
  * and give back cpu time to t1
- * wait and notify from Object class does this thing*/
+ * wait and notify from Object class does this thing
+ * */
 
 /**
  * For N web links, this approach creates 2 * N threads.
@@ -114,7 +116,7 @@ public class WaitNotifyIndexer {
 
         public void run() {
 
-//            We need synchronized block becauyse, if in case after executing below line
+//            We need synchronized block because, if in case after executing below line
 //            String htmlPage = weblink.getHtmlPage() -> htmlPage = null;
 //            thread goes into blocked state and other thread gets cpu time, then
 //            other thread actually downloads the webpage, in that case htmlPage varibale will

@@ -78,12 +78,12 @@ class BankAccount implements Runnable{
     * private void makeDeposit(int amount){
 //            balance += amount;
 //    }
-*   and when anita making deposit, john can still tenter makeWithdrawal as the lock not being obtained
+*   and when anita making deposit, john can still enter makeWithdrawal as the lock not being obtained
 * at object level, anita thread might leave makeDeposit without actually updating balance, to give john
 * thread execution time, then john gets insufficient funds error
 *
 *
-* below could be goog implementation of this scenario
+* below could be good implementation of this scenario
 * private void synchronized makeDeposit(int amount){
 //            balance += amount;
 //    }*/

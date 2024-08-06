@@ -13,7 +13,7 @@ public class UsingFixedThreadPool {
         * and when one thread finishes its task, it will pick new pending tasks from queue*/
         ExecutorService executorService = Executors.newFixedThreadPool(3);
         for(int i = 1; i <= 6; i ++){
-            executorService.execute(new SecondTask());
+            executorService.execute(new ThirdTask());
         }
         System.out.println("Ended main thread");
         /*If below line not mentioned the program will keep running*/
@@ -21,7 +21,7 @@ public class UsingFixedThreadPool {
     }
 }
 class ThirdTask implements Runnable {
-
+;
     static int count;
     int id;
 

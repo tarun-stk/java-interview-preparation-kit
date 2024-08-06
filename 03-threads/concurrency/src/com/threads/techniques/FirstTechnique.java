@@ -5,8 +5,8 @@ import java.util.concurrent.TimeUnit;
 public class FirstTechnique {
     public static void main(String[] args) {
         System.out.println("Main thread started");
-        new SecondTask();
-        Thread t = new SecondTask();
+        new FirstTask();
+        Thread t = new FirstTask();
         System.out.println("Main thread ended");
 
     }
