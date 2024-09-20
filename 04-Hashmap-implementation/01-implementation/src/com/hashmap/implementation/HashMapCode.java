@@ -60,8 +60,8 @@ public class HashMapCode {
         }
 
         private int hashFunction(K key) {
-            int bucketIndex = key.hashCode();
-            return Math.abs(bucketIndex) % N;
+            int hash = key.hashCode();
+            return Math.abs(hash) % N;
         }
 
         public void put(K key, V value) {
