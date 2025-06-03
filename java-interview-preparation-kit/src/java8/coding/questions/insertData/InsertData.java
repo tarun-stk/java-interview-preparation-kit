@@ -1,10 +1,11 @@
 package java8.coding.questions.insertData;
 
+import java8.coding.questions.employee.Employee;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.java8.employee.Employee;
 
 public class InsertData {
 	

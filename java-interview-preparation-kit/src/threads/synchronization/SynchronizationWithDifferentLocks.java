@@ -62,7 +62,7 @@ class BankAccount1 implements Runnable{
 }
 
 //In the above scenario the concept of locking is lost
-//As for makeWithdrawal is workign on locking for current object
+//As for makeWithdrawal is working on locking for current object
 //makeDeposit is working with different synchronized lock (a string)
 //Let's suppose there;s no enough balance in account, and John asks anita to deposit some amount
 //And they are in hurry, both start operations at same time

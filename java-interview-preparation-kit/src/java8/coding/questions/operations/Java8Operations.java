@@ -1,7 +1,8 @@
 package java8.coding.questions.operations;
 
-import com.java8.employee.Employee;
-import com.java8.insertData.InsertData;
+
+import java8.coding.questions.employee.Employee;
+import java8.coding.questions.insertData.InsertData;
 
 import java.util.*;
 import java.util.Map.Entry;

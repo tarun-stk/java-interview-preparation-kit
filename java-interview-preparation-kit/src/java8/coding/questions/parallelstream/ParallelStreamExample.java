@@ -1,7 +1,7 @@
 package java8.coding.questions.parallelstream;
 
-import com.java8.employee.Employee;
-import com.java8.insertData.InsertData;
+import java8.coding.questions.employee.Employee;
+import java8.coding.questions.insertData.InsertData;
 
 import java.util.List;
 import java.util.stream.IntStream;
