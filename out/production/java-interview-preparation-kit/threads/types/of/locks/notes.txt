@@ -1,0 +1,13 @@
+Implicit/Intrinsic locking:
+    - Blocks other threads, until current thread completes it execution
+    - Builltin locking mechanism achieved using synchronized keyword
+    - Not possible to interrupt current threads execution externally by other thread
+    - Fairness of locks not possible
+    - Read/write locking not possible
+
+Explicit:
+    - Will not block other threads, when using tryLock to acquire lock
+    - Manual lock achieved using Lock interface
+    - Possible to interrupt other threads exec by calling lockInterruptly method on current thread
+    - Fairness of locks possible
+    - Read/write locking possible by maintaining different locks
