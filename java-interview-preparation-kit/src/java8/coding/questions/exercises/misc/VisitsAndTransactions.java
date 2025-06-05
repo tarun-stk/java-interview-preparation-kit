@@ -1,6 +1,5 @@
 package java8.coding.questions.exercises.misc;
 
-import javax.xml.crypto.dsig.TransformService;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -41,13 +40,14 @@ This table contains information about the transactions made during the visit_id.
         Set<Integer> visitIdsFromTransactions = transactions.stream().map(Transaction::getVisitId).collect(Collectors.toSet());
 
         visits.stream().collect(Collectors.groupingBy(Visit::getCustomerId, Collectors.mapping(Visit::getVisitId, Collectors.toSet())))
-                .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, entry -> entry.getValue().stream().filter(visitId -> !visitIdsFromTransactions.contains(visitId)).count()))
+                .entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, entry -> entry.getValue().stream().
+                        filter(visitId -> !visitIdsFromTransactions.contains(visitId)).count()))
                 .entrySet().stream().filter(entry -> entry.getValue() > 0).forEach(System.out::println);
 
     }
 }
 
-class Visit{
+class Visit {
     int visitId;
     int customerId;
 
@@ -72,7 +72,8 @@ class Visit{
         this.customerId = customerId;
     }
 }
-class Transaction{
+
+class Transaction {
     int transactionId;
     int visitId;
     int amount;
@@ -108,7 +109,7 @@ class Transaction{
     }
 }
 
-class Result{
+class Result {
     int customerId;
     long countOfVisits;
 

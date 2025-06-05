@@ -1,0 +1,5 @@
+Notes:
+    Thread pool:
+        Fixed number of pre initialized threads, waiting to perform a task.
+        Benefits:
+            Better resource management: instead of creating boundless number of threads, it creates only finite number of threads and reuses them
