@@ -1,0 +1,8 @@
+Notes:
+    - Thread communication is possible when working with multiple threads on same object
+    - There can be scenario where consumer might be invoking producer continuously to check if there is any data, this will cause unnecessary load on producer
+    - If there is a mechanism where producer will send an auto notification to consumer if data is present, it will reduce load, which is efficient
+    - Thread commn is nothing but above
+    - When you call notify, the thread which is waiting to acquire lock on same object will be notified.
+    - When you call notifyAll, all the threads which are waiting to acquire lock on same object will be notified.
+    - When you call wait, current thread will release the lock, and will go into waiting state.

@@ -11,6 +11,6 @@ public class FindFirstLongestWordInAString {
     }
 
     private static String findFirstLongestWordInAString(String s) {
-        return Arrays.stream(s.split(" ")).sorted(Collections.reverseOrder(Comparator.comparingInt(String::length))).findFirst().orElseGet(null);
+        return Arrays.stream(s.split("\\s")).max(Comparator.comparingInt(String::length)).orElseGet(null);
     }
 }
