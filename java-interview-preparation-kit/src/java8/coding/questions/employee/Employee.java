@@ -11,6 +11,7 @@ public class Employee {
 	private String lastName;
 	private String department;
 	private List<String> phone;
+	private String city;
 
 	public char getGender() {
 		return gender;
@@ -78,9 +79,16 @@ public class Employee {
 		this.phone = phone;
 	}
 
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
 
 	public Employee(int id, double salary, char gender, int age, String firstName, String lastName, String department,
-			List<String> phone) {
+					List<String> phone) {
 		super();
 		this.id = id;
 		this.salary = salary;
@@ -91,6 +99,21 @@ public class Employee {
 		this.phone = phone;
 		this.age = age;
 	}
+
+	public Employee(int id, double salary, char gender, int age, String firstName, String lastName, String department,
+					List<String> phone, String city) {
+		super();
+		this.id = id;
+		this.salary = salary;
+		this.gender = gender;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.department = department;
+		this.phone = phone;
+		this.age = age;
+		this.city = city;
+	}
+
 
 	@Override
 	public String toString() {
