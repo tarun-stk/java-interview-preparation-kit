@@ -3,3 +3,35 @@ Notes:
         Fixed number of pre initialized threads, waiting to perform a task.
         Benefits:
             Better resource management: instead of creating boundless number of threads, it creates only finite number of threads and reuses them
+
+Disadvantages of traditional usage of threads:
+    Manual thread management
+    resource management
+    scalability
+    thread reuse
+    error handling
+
+Differences between execute of Executor and submit of ExecutorService:
+    execute:
+        works similar to submit to submit a task
+        is of void type
+    submit:
+        works to submit a taks
+        returns Future type of object.
+        Using Future you can do some useful stuff, like to get what the task has returned using get()
+        and whenever you do get(), it will wait if the task is not completed, once completed it will return the output
+        or to check if the task submission is done or not using isDone() method
+
+        submit is an overloaded method taking Runnable in one method, and Callable in other method
+
+Difference between Runnable and Callable:
+    Runnable:
+        abstract method run()
+        run() is a void method
+        if any exception causing code is writtent inside this overriden method, we must surround using try/catch,
+            because we cannot add throws to method sign as it is not there Runnable interface
+    Callable:
+        abstract method call()
+        has a generic return type to its method
+        has throws Exception in method sign, so we can simply write exception causing code, without usign try/catch block.
+
