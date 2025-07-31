@@ -8,7 +8,7 @@ import java.io.*;
  * class has been modified
  * In this scenario we can make use of serialization uuid, by default jre will generate one by default if
  * not created, explicit mention is much more useful, now when above scenario happens, we dont get exception
- * because the uuid will be different for our current class ana serialized object, deserializtion wil
+ * because the uuid will be different for our current class and serialized object, deserialization will
  * happen only when uuid matches in both versions*/
 public class SerializationWithUUID {
     public static void main(String[] args) {

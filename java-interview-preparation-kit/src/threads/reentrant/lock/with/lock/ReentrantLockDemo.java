@@ -3,7 +3,7 @@ package threads.reentrant.lock.with.lock;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-/*Using reentrant locks we can avoid using sunchronization, we can use mthods like lock and unlock from Lock
+/*Using reentrant locks we can avoid using synchronization, we can use methods like lock and unlock from Lock
 * interface*/
 public class ReentrantLockDemo {
     public static void main(String[] args) throws InterruptedException {
@@ -43,7 +43,7 @@ class Runner {
         }
     }
 
-    /*THis is dangerous situation because you obtained lock on increment method, what if that mthod
+    /*This is dangerous situation because you obtained lock on increment method, what if that method
      * throws exception then this lock can be never be released, so always put unlock method in finally block*/
     public void firstThread() {
         try {

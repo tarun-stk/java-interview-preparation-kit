@@ -68,7 +68,7 @@ class BankAccount1 implements Runnable{
 //And they are in hurry, both start operations at same time
 //Anita enters makeDeposit and before updates balance, john enters makewithdrawal as there are two diff locks,
 //This is possible both accessing diff locks, not same locks
-//and before updating the balanec itself john tries withdrawing again, and fails to withdraw as balance is still less.
+//and before updating the balance itself john tries withdrawing again, and fails to withdraw as balance is still less.
 //So whenever working with same instance critical variables, use same lock
 
 //The above can corrected using

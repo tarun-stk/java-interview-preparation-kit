@@ -10,8 +10,8 @@ package threads.rececondition;
 //now Anita goes into makeWithDrawal() and as John left without updating the balance, the balance still remained 100
 //now Anita also able to withdraw amount, and updates balance to 25, and completes execution
 //now John resumes where he left off, as condition was passed previously, it is not valid now
-//he also makes transaction and updatess balance to -50, and completes execution
-//This above case is known as race condition, Whenever you;'re workign with concurrency (multi threading) utmost care should be taken
+//he also makes transaction and updates balance to -50, and completes execution
+//This above case is known as race condition, Whenever you're working with concurrency (multi threading) utmost care should be taken
 //The above case would work perfectly fine in single threaded environment
 
 public class RaceConditionDemo {

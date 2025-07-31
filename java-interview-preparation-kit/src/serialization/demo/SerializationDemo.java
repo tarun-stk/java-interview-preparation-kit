@@ -23,7 +23,7 @@ Caching: Objects can be serialized and stored in a cache for quick retrieval wit
 *
 *
 * In below scenario we're trying to store an object, which can be vulnerable, so we serialize it
-* and the format of that can obly be understood by java, not by humans*/
+* and the format of that can only be understood by java, not by humans*/
 public class SerializationDemo {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {

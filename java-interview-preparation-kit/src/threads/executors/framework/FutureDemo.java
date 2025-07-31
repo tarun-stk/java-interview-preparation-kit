@@ -14,7 +14,7 @@ public class FutureDemo {
 //        Using Callable lambda with submit
         Future<String> callableDemo = executorService.submit(() -> "Hello");
 
-//        runnablle with success message
+//        runnable with success message
 //        as run method cannot return anything by default, you can explicitly give some result message, so future
 //        will give this message once the task is successfully submitted.
         Future<String> submitWithStatusMessage = executorService.submit(() -> System.out.println("submit third method"), "Success");
@@ -72,7 +72,7 @@ public class FutureDemo {
         }
 
         try {
-//            below returns result of any task that is complteted, and once any task completed
+//            below returns result of any task that is completed, and once any task completed
 //            it will cancel others in execution
             executorService.invokeAny((Collection)list);
         } catch (InterruptedException e) {

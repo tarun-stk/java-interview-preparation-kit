@@ -3,13 +3,13 @@ package threads.synchronization;
 
 //Notes on synchronization
 //Whenever a synchronized keyword is added to a method / block, it means there is a lock
-//and only one particular thread can obtain a lock over it, other thread cannot access the synchronized block
+//and only one particular thread can obtain a lock over it, other threads cannot access the synchronized block
 //unless or until the current thread leaves the lock
 //leaving lock scenarios:
 //  when thread completes its synchronized block
 //  when thread encounters an exception
 //How synchronization works:
-//    Locking is as per object but not per class, when there are multipe synchronized methods, and one
+//    Locking is as per object but not per class, when there are multiple synchronized methods, and one
 //      thread is executing synchronized method x1, then lock is obtained on that particular object,
 //        it means when one more thread wants to access synchronized method x2, it cannot enter it because
 //        lock was on object not on method, so it can start running only when current thread leaves x1.
@@ -19,7 +19,7 @@ package threads.synchronization;
 
 //Whenever there is a lock and other thread tries to access the same, then it goes into blocked state.
 //Like that multiple threads would get into blocked state
-//AFter releasing lock thread scheduler will decide which thread would again obtain a lock
+//After releasing lock, thread scheduler will decide which thread would again obtain a lock
 
 public class RaceConditionDemo {
 
@@ -71,7 +71,7 @@ class BankAccount implements Runnable{
         }
     }
 
-    /*whenever dealing with variables you must synchronize wheerever it is udsed
+    /*whenever dealing with variables you must synchronize wherever it is used
     * like for example getBalance() is not syncd and makeWithDrawal is syncd
     * then when John tells anita to deposit money, like shown below it is not syncd
     *

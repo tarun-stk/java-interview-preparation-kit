@@ -25,7 +25,7 @@ public class ExecutorServiceDemo {
         }
 
         /*when using ExecutorService extending Executor, in which you only have one method called execute
-         * using which you can execute tasks, but as there are no methods supporting shutdown, sysetm will keep on running
+         * using which you can execute tasks, but as there are no methods supporting shutdown, system will keep on running
          * that's why we'll not prefer below kind*/
         /*Executor executor = Executors.newFixedThreadPool(3);
         for (int i = 1; i < 10; i++) {

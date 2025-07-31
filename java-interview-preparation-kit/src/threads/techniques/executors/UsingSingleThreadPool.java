@@ -7,11 +7,11 @@ import java.util.concurrent.TimeUnit;
 public class UsingSingleThreadPool {
     public static void main(String[] args) {
         System.out.println("Started main thread");
-        /*Only created and maintains one thread at any moment of time,
+        /*Only creates and maintains one thread at any moment of time,
         reuses it all the time, executes tasks sequentially in the order they arrive.*/
         ExecutorService executorService = Executors.newSingleThreadExecutor();
         for (int i = 1; i <= 3; i++) {
-            executorService.execute(new SecondTask());
+            executorService.execute(new FirstTask());
         }
         System.out.println("Ended main thread");
         /*If below line not mentioned the program will keep running

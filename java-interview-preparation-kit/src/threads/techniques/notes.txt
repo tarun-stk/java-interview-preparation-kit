@@ -2,10 +2,9 @@ Notes on executor framework:
     This came into pic because using traditional multi threading we were creating new threads whenever we need
     So, we were creating boundless no of threads, and also creating and destroying threads is a expensive task
 
-    Problems solved by executors frameword:
-    We can create finite no of threads and store them in threadpool
-    Threads can be reused so creating and destrying operations are not required
-
+    Problems solved by executors framework:
+    We can create finite no of threads and store them in thread pool
+    Threads can be reused so creating and destroying operations are not required
 
     Executor - interface
     ExecutorService - interface extends Executor

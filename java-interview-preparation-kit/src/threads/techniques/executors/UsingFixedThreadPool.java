@@ -21,7 +21,7 @@ public class UsingFixedThreadPool {
     }
 }
 class ThirdTask implements Runnable {
-;
+
     static int count;
     int id;
 

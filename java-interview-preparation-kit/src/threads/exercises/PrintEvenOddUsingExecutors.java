@@ -17,12 +17,11 @@ public class PrintEvenOddUsingExecutors {
         synchronized (lock) {
             while (count <= max) {
                 if (count % 2 == 0) {
-                    wait();
+                    lock.wait();
                 }
                 System.out.println(Thread.currentThread().getName() + " " + count);
                 count ++;
-                notify();
-                wait();
+                lock.notify();
             }
         }
     }
@@ -31,12 +30,11 @@ public class PrintEvenOddUsingExecutors {
         synchronized (lock) {
             while (count <= max) {
                 if (count % 2 != 0) {
-                    wait();
+                    lock.wait();
                 }
                 System.out.println(Thread.currentThread().getName() + " " + count);
                 count ++;
-                notify();
-                wait();
+                lock.notify();
             }
         }
     }

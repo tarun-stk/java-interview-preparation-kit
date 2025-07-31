@@ -16,7 +16,7 @@ public class DeadLockDemo {
         public void run() {
             synchronized (s1){
                 /*t1 locked s1*/
-                System.out.println(Thread.currentThread().getName() + "locked s1");
+                System.out.println(Thread.currentThread().getName() + " locked s1");
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
@@ -34,7 +34,7 @@ public class DeadLockDemo {
         public void run() {
             synchronized (s2){
                 /*t2 locked s2*/
-                System.out.println(Thread.currentThread().getName() + "locked s2");
+                System.out.println(Thread.currentThread().getName() + " locked s2");
                 /*t2 waiting for t1 to release lock on s1*/
                 synchronized (s1){
                     System.out.println(s1 + s2);
